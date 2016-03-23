@@ -1,6 +1,6 @@
 {
   "name": "sys-hub",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "a starting point or base for some activity",
   "main": "lib/cli.js",
   "preferGlobal": true,
@@ -19,7 +19,6 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "node scripts/install.js",
-    "dev": "node lib/cli.js",
     "dev": "iron-node lib/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version patch && git push && git push --tags && npm publish"
