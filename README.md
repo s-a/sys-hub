@@ -1,5 +1,10 @@
 # sys-hub
 
+
+```bash
+$ npm i -g sys-hub;
+```
+
 a command line app to share commands with co-workers across the network.
 
 
