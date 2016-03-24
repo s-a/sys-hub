@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "iron-node lib/cli.js",
+    "dev": "node lib/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version patch && git push && git push --tags && npm publish"
   },
