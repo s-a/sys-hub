@@ -36,7 +36,7 @@
     "asi"           : true,
     "laxbreak"      : true,
     "bitwise"       : true,
-    "boss"          : false,   
+    "boss"          : false,
     "curly"         : true,
     "eqeqeq"        : true,
     "eqnull"        : false,
@@ -69,7 +69,7 @@
     "quotmark"      : true,
     "indent"        : 2,
     "maxdepth"      : 3,
-    "maxcomplexity"	: 9,
+    "maxcomplexity"	: 6,
     "maxparams"     : 3,
     "maxstatements" : 40
 }
