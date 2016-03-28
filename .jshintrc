@@ -67,9 +67,10 @@
     "white"         : true,
     "smarttabs"     : false,
     "quotmark"      : true,
+    "funcscope" : false,
     "indent"        : 2,
     "maxdepth"      : 3,
-    "maxcomplexity"	: 6,
+    "maxcomplexity"	: 4,
     "maxparams"     : 3,
     "maxstatements" : 40
 }
