@@ -65,6 +65,7 @@
     "sub"           : false,
     "trailing"      : true,
     "white"         : true,
+    "quotmark"      : true,
     "indent"        : 2,
     "maxdepth"      : 3,
     "maxcomplexity"	: 9,
