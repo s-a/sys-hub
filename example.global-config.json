@@ -1,0 +1,25 @@
+{
+	"GitHub": {
+		"description" : "description",
+		"sys-hub": {
+			"development" : {
+				"execute something awesome" : {
+					"command" : "shell",
+					"args" : ["notepad"]
+				},
+				"execute something awesome1" : {
+					"command" : "shell",
+					"args" : ["notepad"]
+				},
+				"execute something awesome2" : {
+					"command" : "shell",
+					"args" : ["notepad"]
+				},
+				"execute something awesome3" : {
+					"command" : "shell",
+					"args" : ["notepad"]
+				}
+			}
+		}
+	}
+}

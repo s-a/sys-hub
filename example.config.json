@@ -1,0 +1,49 @@
+{
+    "globalConfigurationFilename": "c:\\temp\\global-config.json",
+    "history": [
+    ],
+    "shell": {
+        "openFolderCommand": "c:\\totalcmd\\TOTALCMD.EXE /O /T /R=\"@dir@\""
+    },
+    "Microsoft": {
+        "ASP.NET c# App": {
+            "description": "description",
+            "development": {
+                "web.config log file": {
+                    "argumentDatasource": {
+                        "filename": "c:\\temp\\web.config",
+                        "selector": ":has(.key:val(\"log-file\"))",
+                        "attribute": "value"
+                    },
+                    "type": "file"
+                },
+                "web.config log folder": {
+                    "argumentDatasource": {
+                        "filename": "c:\\temp\\web.config",
+                        "selector": ":has(.key:val(\"log-folder\"))",
+                        "attribute": "value"
+                    },
+                    "type": "folder"
+                },
+                "execute ls": {
+                    "command": "shell",
+                    "args": [
+                        "ls"
+                    ]
+                },
+                "monitor folder 1": {
+                    "type": "folder",
+                    "args": [
+                        "c:\\temp"
+                    ]
+                },
+                "monitor file 1": {
+                    "type": "file",
+                    "args": [
+                        "c:\\temp\\global-config.json"
+                    ]
+                }
+            }
+        }
+    }
+}
