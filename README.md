@@ -17,64 +17,13 @@ a command line app to share commands with co-workers across the network.
 
 
 
-## Local configuration example
-```javascript
-{
-    "globalConfigurationFilename": "/path/to/global/config.js",
-    "Client-No-1" : {
-        "Project-No-1" : {
-            "development" : {
-                "tail latest logfile" : {
-                    "command" : "tail-latest-file",
-                    "args" : ["/path/to/log/folder/on/local/machine"]
-                },
-                "web.config log file": {
-                    "argumentDatasource": {
-                        "filename": "c:\\temp\\web.config",
-                        "selector": ":has(.key:val(\"log-file\"))",
-                        "attribute": "value"
-                    },
-                    "type": "folder"
-                },
-                "web.config log folder": {
-                    "argumentDatasource": {
-                        "filename": "c:\\temp\\web.config",
-                        "selector": ":has(.key:val(\"log-folder\"))",
-                        "attribute": "value"
-                    },
-                    "type": "file"
-                }
-            }
-        }
-    }
-}
-```
+## [Local configuration example](example.config.json)
 
 ### argumentDatasource
 For JSON selector syntax see http://jsonselect.org/. The ```filename``` attribute supports XML and JSON datasources.
 
+## [Global configuration example](/example.global-config.json)
 
-## Global configuration example
-```javascript
-{
-    "Client-No-1" : {
-        "Project-No-1" : {
-            "staging" : {
-                "tail latest logfile" : {
-                    "command" : "tail-latest-file",
-                    "args" : ["/path/to/log/folder/on/staging/machine"]
-                }
-            },
-            "production" : {
-                "tail latest logfile" : {
-                    "command" : "tail-latest-file",
-                    "args" : ["/path/to/log/folder/on/production/machine"]
-                }
-            }
-        }
-    }
-}
-```
 
 ## Supported commands
  - "open" (path or url to document)
@@ -89,7 +38,7 @@ For JSON selector syntax see http://jsonselect.org/. The ```filename``` attribut
 
 
 ## local config
-This defines a default program to open a folder in a custom filemanager
+This defines a default program to open a folder or file in a custom filemanager
 
 ```javascript
     "shell": {
