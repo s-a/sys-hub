@@ -65,6 +65,7 @@
     "sub"           : false,
     "trailing"      : true,
     "white"         : true,
+    "smarttabs"     : false,
     "quotmark"      : true,
     "indent"        : 2,
     "maxdepth"      : 3,
