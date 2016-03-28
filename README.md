@@ -1,7 +1,7 @@
 # sys-hub
 [![NPM Version](http://img.shields.io/npm/v/sys-hub.svg)](https://www.npmjs.org/package/sys-hub)
 [![Build Status](https://travis-ci.org/s-a/sys-hub.svg)](https://travis-ci.org/s-a/sys-hub)
-[![Codacy Badge](https://www.codacy.com/project/badge/9abe33d152db40bfa5833f2388b32646)](https://www.codacy.com/app/stephanahlf/sys-hub)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/c49184297eae46b19b401c598e433784)](https://www.codacy.com/app/stephanahlf/sys-hub)
 [![Dependency Status](https://david-dm.org/s-a/sys-hub.svg)](https://david-dm.org/s-a/sys-hub)
 [![devDependency Status](https://david-dm.org/s-a/sys-hub/dev-status.svg)](https://david-dm.org/s-a/sys-hub#info=devDependencies)
 [![NPM Downloads](https://img.shields.io/npm/dm/sys-hub.svg)](https://www.npmjs.org/package/sys-hub)
