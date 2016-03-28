@@ -1,4 +1,12 @@
 # sys-hub
+[![NPM Version](http://img.shields.io/npm/v/sys-hub.svg)](https://www.npmjs.org/package/sys-hub)
+[![Build Status](https://travis-ci.org/s-a/sys-hub.svg)](https://travis-ci.org/s-a/sys-hub)
+[![Codacy Badge](https://www.codacy.com/project/badge/9abe33d152db40bfa5833f2388b32646)](https://www.codacy.com/app/stephanahlf/sys-hub)
+[![Dependency Status](https://david-dm.org/s-a/sys-hub.svg)](https://david-dm.org/s-a/sys-hub)
+[![devDependency Status](https://david-dm.org/s-a/sys-hub/dev-status.svg)](https://david-dm.org/s-a/sys-hub#info=devDependencies)
+[![NPM Downloads](https://img.shields.io/npm/dm/sys-hub.svg)](https://www.npmjs.org/package/sys-hub)
+[![Massachusetts Institute of Technology (MIT)](https://s-a.github.io/license/img/mit.svg)](/LICENSE.md#mit)
+[![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
 
 
 ```bash
