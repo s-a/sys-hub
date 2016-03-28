@@ -16,6 +16,7 @@ $ npm i -g sys-hub;
 a command line app to share commands with co-workers across the network.
 
 
+
 ## Local configuration example
 ```javascript
 {
@@ -26,6 +27,22 @@ a command line app to share commands with co-workers across the network.
                 "tail latest logfile" : {
                     "command" : "tail-latest-file",
                     "args" : ["/path/to/log/folder/on/local/machine"]
+                },
+                "web.config log file": {
+                    "argumentDatasource": {
+                        "filename": "c:\\temp\\web.config",
+                        "selector": ":has(.key:val(\"log-file\"))",
+                        "attribute": "value"
+                    },
+                    "type": "folder"
+                },
+                "web.config log folder": {
+                    "argumentDatasource": {
+                        "filename": "c:\\temp\\web.config",
+                        "selector": ":has(.key:val(\"log-folder\"))",
+                        "attribute": "value"
+                    },
+                    "type": "file"
                 }
             }
         }
@@ -33,10 +50,13 @@ a command line app to share commands with co-workers across the network.
 }
 ```
 
+### JSON selector syntax
+See http://jsonselect.org/.
+
+
 ## Global configuration example
 ```javascript
 {
-    "globalConfigurationFilename": "/path/to/global/config.js",
     "Client-No-1" : {
         "Project-No-1" : {
             "staging" : {
@@ -76,3 +96,4 @@ This defines a default program to open a folder in a custom filemanager
         "openFolderCommand": "c:\\totalcmd\\TOTALCMD.EXE /O /T /R=\"@dir@\""
     },
 ```
+ 
