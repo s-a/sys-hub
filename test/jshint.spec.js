@@ -1,5 +1,5 @@
-require('mocha-jshint')({
+require("mocha-jshint")({
 	paths: [
-		'lib/'
+		"lib/"
 	]
 });
