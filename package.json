@@ -16,10 +16,13 @@
     "open": "^0.0.5",
     "shelljs": "^0.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "mocha-jshint": "^2.3.1"
+  },
   "scripts": {
     "dev": "node lib/cli.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node node_modules/mocha/bin/_mocha",
     "bump": "npm version patch && git push && git push --tags && npm publish"
   },
   "repository": {
