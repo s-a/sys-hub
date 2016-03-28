@@ -50,8 +50,8 @@ a command line app to share commands with co-workers across the network.
 }
 ```
 
-### JSON selector syntax
-See http://jsonselect.org/.
+### argumentDatasource
+For JSON selector syntax see http://jsonselect.org/. The ```filename``` attribute supports XML and JSON datasources.
 
 
 ## Global configuration example
