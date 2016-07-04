@@ -1,6 +1,6 @@
 {
   "name": "sys-hub",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "a starting point or base for some activity",
   "main": "lib/cli.js",
   "preferGlobal": true,
