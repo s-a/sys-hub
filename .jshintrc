@@ -27,9 +27,9 @@
 
     "debug"         : false,
     "devel"         : true,
-    "es5"           : false,
-    "strict"        : false,
-    "globalstrict"  : false,
+    "esversion"     : 6,
+    "strict"        : true,
+    "globalstrict"  : true,
 
 
 
@@ -53,9 +53,7 @@
     "shadow"        : false,
     "supernew"      : false,
     "undef"         : true,
-    "unused"         : true,
-
-
+    "unused"        : false,
     "newcap"        : true,
     "noempty"       : true,
     "nonew"         : true,
@@ -67,10 +65,10 @@
     "white"         : true,
     "smarttabs"     : false,
     "quotmark"      : true,
-    "funcscope" : false,
+    "funcscope"     : false,
     "indent"        : 2,
     "maxdepth"      : 3,
     "maxcomplexity"	: 4,
     "maxparams"     : 3,
-    "maxstatements" : 40
+    "maxstatements" : 20
 }
